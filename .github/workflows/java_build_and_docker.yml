@@ -20,7 +20,7 @@ jobs:
       - name: Build and push Docker Image to Docker Hub
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
-          image: abeetreee/mypracticeimage:latest
+          image: abeetreee/mypracticeimage
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
